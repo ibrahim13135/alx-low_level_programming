@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-* main - prints "_putchar", followed by a new line
+* main - Entry point
 *
-* Return : Always 0.
+* Descreption : Prints "_putchar" followed by a new line
+*
+* Return : Always 0. (Success)
 */
 int main(void)
 {
