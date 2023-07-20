@@ -5,10 +5,10 @@
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 
-	if (c >= 'A' && c <= 'B')
+	if (c >= 65 && c <= 90)
 		return (0);
 
 	else
