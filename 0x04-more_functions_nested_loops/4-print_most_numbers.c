@@ -10,7 +10,7 @@ void print_most_numbers(void)
 	for (num = 48; num <= 57; num++)
 	{
 		if (num != 2 && num != 4)
-			_putchar((num % 10) + '0');
+			_putchar(num);
 	}
 
 	_putchar('\n');
