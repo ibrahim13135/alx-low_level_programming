@@ -11,16 +11,20 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char src[40];
-	char dest[12];
 
-	memset(dest, '\0', sizeof(dest));
-	strcpy(src, "This is tutorialspoint.com");
-	strncpy(dest, src, 10);
+	int index = 0, src_len = 0;
 
-	printf("Final copied string : %s\n", dest);
+	while (src[index++])
+		src_len++;
 
-	return (0);
+	for (index = 0; src[index] && index < n; index++)
+		dest[index] = src[index];
+
+	for (index = src_len; index < n; index++)
+		dest[index] = '\0';
+
+	return (dest);
+
 
 }
 
