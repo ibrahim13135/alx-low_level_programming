@@ -7,7 +7,7 @@
  *
  * Return: A pointer to the changed string.
  */
-void uppercase(char *str)
+char *string_toupper(char *str)
 {
     while (*str)
     {
