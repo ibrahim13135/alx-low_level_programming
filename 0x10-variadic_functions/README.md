@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0. Beauty is variable, ugliness is constant
 Write a function that returns the sum of all its parameters.
 
@@ -57,3 +58,6 @@ You can declare a maximum of 9 variables
 You are allowed to use printf
 
 Print a new line at the end of your function
+=======
+s
+>>>>>>> 3a07bb7cdd3cc3816a6a995fac3f8a1677010105
