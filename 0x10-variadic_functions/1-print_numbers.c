@@ -43,14 +43,16 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%d", va_arg(args, int));
 
 
-		if (separator != NULL && i < n - 1)
-
+		if (i != (n - 1) && separator != NULL)
 			printf("%s", separator);
 
 
-	va_end(args);
-
 
 	printf("\n");
+<<<<<<< HEAD
 >>>>>>> 3a07bb7cdd3cc3816a6a995fac3f8a1677010105
+=======
+
+	va_end(args);
+>>>>>>> 8bb85fc3e9eddf204c153026546916ddab55d277
 }
