@@ -3,7 +3,7 @@
 void __attribute__((constructor)) print_massege(void);
 
 /**
- * hare - Prints a string before the
+ * print_massege - Prints a string before the
  *        main function is executed.
  */
 void print_massege(void)
