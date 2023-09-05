@@ -21,7 +21,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
-		return (1)
+		return (1);
 
 	nwrite = write(fd, text_content, _strlen(text_content));
 	if (nwrite == -1 || nwrite != _strlen(text_content))
@@ -37,11 +37,11 @@ int append_text_to_file(const char *filename, char *text_content)
 
 /**
  * _strlen - count the lenght of string
- * s: character to be count
+ * s: sting to be counted
  *
  * Return: lenght of string
 */
-size_t _strlen(char *s)
+ssize_t _strlen(char *s)
 {
 	size_t len = 0;
 
