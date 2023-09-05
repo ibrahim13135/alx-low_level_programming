@@ -76,10 +76,10 @@ void print_class(unsigned char *e_ident)
 	case 1:
 		printf("none\n");
 		break;
-	case 1:
+	case 2:
 		printf("ELF32\n");
 		break;
-	case 1:
+	case 3:
 		printf("ELF64\n");
 		break;
 	default:
